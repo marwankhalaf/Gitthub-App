@@ -1,4 +1,4 @@
-// start logic
+// start logical
 
 // Setut Vars
 
