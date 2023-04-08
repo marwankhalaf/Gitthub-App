@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+:root {
+    --grayColor: #ffffff;
+    --darkBlue: #202021;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(53, 53, 144, 0.443);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(31, 29, 31);
+}
+
+header {
+    background-color: var(--darkBlue);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.app-title {
+    font-size: 45px;
+    background-color: var(--grayColor);
+    color: black;
+    padding: 3px 10px;
+    display: inline-block;
+    border-radius: 5px ;
+    box-shadow: 6px 5px 3px #00000073;
+}
+
+.app-title i {
+    color: #000;
+}
+
+.content {
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 30%;
+}
+
+.right{
+    width: 68%;
+}
+
+.card {
+    border: 1px solid  var(--darkBlue);
+    margin-bottom: 20px;
+    border: 2px solid #1f1f25;
+    border-radius: 4px;
+    
+}
+
+.card h2 {
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {padding: 15px;}
+
+label {
+    font-size: 16px;
+    display: block;
+    font-style: italic;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0;
+    font-size: 16px;
+    border: 1px solid rgb(29, 28, 28);
+    outline: 0;
+    border-radius: 3px;
+    color: #1f1f25;
+}
+
+.languages {
+    padding: 10px;
+}
+
+.btn-el {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    background-color: #000;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.repo-item {
+    background-color: var(--darkBlue);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 7px 0;
+}
+
+.repo-item:hover {
+    background-color: #000;
+}
